@@ -1,4 +1,4 @@
-package br.org.gestao.atena.entities;
+package atena.entities;
 
 import jakarta.persistence.Entity;
 
