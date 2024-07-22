@@ -1,13 +1,13 @@
-package br.org.gestao.atena.repositorys;
+package atena.repositorys;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.org.gestao.atena.entities.Tasks;
+import atena.entities.TimeEntries;
 
 @Repository
-public interface TaskRepository extends JpaRepository<UUID, Tasks> {
+public interface TimeEntryRepository extends JpaRepository<TimeEntries, UUID> {
 
 }

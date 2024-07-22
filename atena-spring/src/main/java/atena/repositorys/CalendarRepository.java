@@ -1,13 +1,13 @@
-package br.org.gestao.atena.repositorys;
+package atena.repositorys;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.org.gestao.atena.entities.Users;
+import atena.entities.Calendar;
 
 @Repository
-public interface UserRepository extends JpaRepository<UUID, Users>{
+public interface CalendarRepository extends JpaRepository<Calendar, UUID> {
 
 }
