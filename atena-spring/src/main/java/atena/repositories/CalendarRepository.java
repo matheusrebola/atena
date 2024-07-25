@@ -1,13 +1,13 @@
-package atena.repositorys;
+package atena.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import atena.entities.Reports;
+import atena.entities.Calendar;
 
 @Repository
-public interface ReportRepository extends JpaRepository<Reports, UUID> {
+public interface CalendarRepository extends JpaRepository<Calendar, UUID> {
 
 }

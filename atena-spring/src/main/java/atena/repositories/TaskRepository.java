@@ -1,4 +1,4 @@
-package atena.repositorys;
+package atena.repositories;
 
 import java.util.UUID;
 

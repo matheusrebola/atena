@@ -1,13 +1,13 @@
-package atena.repositorys;
+package atena.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import atena.entities.Projects;
+import atena.entities.AgileMethods;
 
 @Repository
-public interface ProjectRepository extends JpaRepository<Projects, UUID> {
+public interface AgileMethodRepository extends JpaRepository<AgileMethods, UUID>{
 
 }

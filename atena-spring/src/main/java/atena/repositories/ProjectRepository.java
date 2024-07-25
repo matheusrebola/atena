@@ -1,13 +1,13 @@
-package atena.repositorys;
+package atena.repositories;
 
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import atena.entities.Users;
+import atena.entities.Projects;
 
 @Repository
-public interface UserRepository extends JpaRepository<Users, UUID>{
+public interface ProjectRepository extends JpaRepository<Projects, UUID> {
 
 }
