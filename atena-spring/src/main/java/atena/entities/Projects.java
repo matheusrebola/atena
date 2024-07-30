@@ -17,7 +17,7 @@ public record Projects(
 		LocalDate dataFim,
 		LocalDate dataCriacao,
 		LocalDate datAtualizacao,
-		boolean ativo) 
+		Boolean ativo) 
 {
 
 }
