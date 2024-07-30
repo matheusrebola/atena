@@ -1,5 +1,12 @@
 package atena.dtos;
 
-public record UserCreateDto() {
+import java.time.LocalDateTime;
+
+public record UserCreateDto(
+		String nome,
+		String email,
+		String senha,
+		LocalDateTime dataCriacao,
+		LocalDateTime dataAtualizacao) {
 
 }

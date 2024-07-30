@@ -1,5 +1,15 @@
 package atena.dtos;
 
-public record IntegrationDto() {
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import jakarta.validation.constraints.NotNull;
+
+public record IntegrationDto(
+		@NotNull UUID id,
+		String nome,
+		String configuracao,
+		LocalDateTime dataCriacao,
+		LocalDateTime dataAtualizacao) {
 
 }
